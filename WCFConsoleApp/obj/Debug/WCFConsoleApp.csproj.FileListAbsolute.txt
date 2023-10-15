@@ -1,0 +1,8 @@
+C:\labs\WcfService\WCFConsoleApp\bin\Debug\WCFConsoleApp.exe.config
+C:\labs\WcfService\WCFConsoleApp\bin\Debug\WCFConsoleApp.exe
+C:\labs\WcfService\WCFConsoleApp\bin\Debug\WCFConsoleApp.pdb
+C:\labs\WcfService\WCFConsoleApp\obj\Debug\WCFConsoleApp.csproj.AssemblyReference.cache
+C:\labs\WcfService\WCFConsoleApp\obj\Debug\WCFConsoleApp.csproj.SuggestedBindingRedirects.cache
+C:\labs\WcfService\WCFConsoleApp\obj\Debug\WCFConsoleApp.csproj.CoreCompileInputs.cache
+C:\labs\WcfService\WCFConsoleApp\obj\Debug\WCFConsoleApp.exe
+C:\labs\WcfService\WCFConsoleApp\obj\Debug\WCFConsoleApp.pdb
