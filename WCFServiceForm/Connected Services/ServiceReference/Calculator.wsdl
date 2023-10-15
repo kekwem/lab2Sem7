@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Calculator" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:57265/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:57265/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:57265/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICalculatorSevice_dodawanie4Param_InputMessage">
+    <wsdl:part name="parameters" element="tns:dodawanie4Param" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_dodawanie4Param_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dodawanie4ParamResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_odejmowanie4Param_InputMessage">
+    <wsdl:part name="parameters" element="tns:odejmowanie4Param" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_odejmowanie4Param_OutputMessage">
+    <wsdl:part name="parameters" element="tns:odejmowanie4ParamResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_mnozenie4Param_InputMessage">
+    <wsdl:part name="parameters" element="tns:mnozenie4Param" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_mnozenie4Param_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mnozenie4ParamResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_dzielenie4Param_InputMessage">
+    <wsdl:part name="parameters" element="tns:dzielenie4Param" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_dzielenie4Param_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dzielenie4ParamResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_dodawanie2Param_InputMessage">
+    <wsdl:part name="parameters" element="tns:dodawanie2Param" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_dodawanie2Param_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dodawanie2ParamResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_odejmowanie2Param_InputMessage">
+    <wsdl:part name="parameters" element="tns:odejmowanie2Param" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_odejmowanie2Param_OutputMessage">
+    <wsdl:part name="parameters" element="tns:odejmowanie2ParamResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_mnozenie2Param_InputMessage">
+    <wsdl:part name="parameters" element="tns:mnozenie2Param" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_mnozenie2Param_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mnozenie2ParamResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_dzielenie2Param_InputMessage">
+    <wsdl:part name="parameters" element="tns:dzielenie2Param" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorSevice_dzielenie2Param_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dzielenie2ParamResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICalculatorSevice">
+    <wsdl:operation name="dodawanie4Param">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculatorSevice/dodawanie4Param" message="tns:ICalculatorSevice_dodawanie4Param_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculatorSevice/dodawanie4ParamResponse" message="tns:ICalculatorSevice_dodawanie4Param_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="odejmowanie4Param">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculatorSevice/odejmowanie4Param" message="tns:ICalculatorSevice_odejmowanie4Param_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculatorSevice/odejmowanie4ParamResponse" message="tns:ICalculatorSevice_odejmowanie4Param_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mnozenie4Param">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculatorSevice/mnozenie4Param" message="tns:ICalculatorSevice_mnozenie4Param_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculatorSevice/mnozenie4ParamResponse" message="tns:ICalculatorSevice_mnozenie4Param_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dzielenie4Param">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculatorSevice/dzielenie4Param" message="tns:ICalculatorSevice_dzielenie4Param_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculatorSevice/dzielenie4ParamResponse" message="tns:ICalculatorSevice_dzielenie4Param_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dodawanie2Param">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculatorSevice/dodawanie2Param" message="tns:ICalculatorSevice_dodawanie2Param_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculatorSevice/dodawanie2ParamResponse" message="tns:ICalculatorSevice_dodawanie2Param_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="odejmowanie2Param">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculatorSevice/odejmowanie2Param" message="tns:ICalculatorSevice_odejmowanie2Param_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculatorSevice/odejmowanie2ParamResponse" message="tns:ICalculatorSevice_odejmowanie2Param_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mnozenie2Param">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculatorSevice/mnozenie2Param" message="tns:ICalculatorSevice_mnozenie2Param_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculatorSevice/mnozenie2ParamResponse" message="tns:ICalculatorSevice_mnozenie2Param_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dzielenie2Param">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculatorSevice/dzielenie2Param" message="tns:ICalculatorSevice_dzielenie2Param_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculatorSevice/dzielenie2ParamResponse" message="tns:ICalculatorSevice_dzielenie2Param_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICalculatorSevice" type="tns:ICalculatorSevice">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="dodawanie4Param">
+      <soap:operation soapAction="http://tempuri.org/ICalculatorSevice/dodawanie4Param" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="odejmowanie4Param">
+      <soap:operation soapAction="http://tempuri.org/ICalculatorSevice/odejmowanie4Param" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mnozenie4Param">
+      <soap:operation soapAction="http://tempuri.org/ICalculatorSevice/mnozenie4Param" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dzielenie4Param">
+      <soap:operation soapAction="http://tempuri.org/ICalculatorSevice/dzielenie4Param" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodawanie2Param">
+      <soap:operation soapAction="http://tempuri.org/ICalculatorSevice/dodawanie2Param" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="odejmowanie2Param">
+      <soap:operation soapAction="http://tempuri.org/ICalculatorSevice/odejmowanie2Param" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mnozenie2Param">
+      <soap:operation soapAction="http://tempuri.org/ICalculatorSevice/mnozenie2Param" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dzielenie2Param">
+      <soap:operation soapAction="http://tempuri.org/ICalculatorSevice/dzielenie2Param" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Calculator">
+    <wsdl:port name="BasicHttpBinding_ICalculatorSevice" binding="tns:BasicHttpBinding_ICalculatorSevice">
+      <soap:address location="http://localhost:57265/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

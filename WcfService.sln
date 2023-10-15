@@ -10,6 +10,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFConsoleApp", "WCFConsole
 		{4AF5814D-AE7F-4FCF-BFAF-80FBB1DF2400} = {4AF5814D-AE7F-4FCF-BFAF-80FBB1DF2400}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceForm", "WCFServiceForm\WCFServiceForm.csproj", "{5EED6FA5-CA36-4A48-A438-1EB8E89C1DF2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4AF5814D-AE7F-4FCF-BFAF-80FBB1DF2400} = {4AF5814D-AE7F-4FCF-BFAF-80FBB1DF2400}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +29,10 @@ Global
 		{B71F72D8-FCC5-43DA-99D6-3D0FC9ACFBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B71F72D8-FCC5-43DA-99D6-3D0FC9ACFBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B71F72D8-FCC5-43DA-99D6-3D0FC9ACFBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EED6FA5-CA36-4A48-A438-1EB8E89C1DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EED6FA5-CA36-4A48-A438-1EB8E89C1DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EED6FA5-CA36-4A48-A438-1EB8E89C1DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EED6FA5-CA36-4A48-A438-1EB8E89C1DF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

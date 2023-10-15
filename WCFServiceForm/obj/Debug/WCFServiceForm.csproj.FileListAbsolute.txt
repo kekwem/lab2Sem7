@@ -1,0 +1,11 @@
+C:\labs\WcfService\WCFServiceForm\bin\Debug\WCFServiceForm.exe.config
+C:\labs\WcfService\WCFServiceForm\bin\Debug\WCFServiceForm.exe
+C:\labs\WcfService\WCFServiceForm\bin\Debug\WCFServiceForm.pdb
+C:\labs\WcfService\WCFServiceForm\obj\Debug\WCFServiceForm.csproj.AssemblyReference.cache
+C:\labs\WcfService\WCFServiceForm\obj\Debug\WCFServiceForm.csproj.SuggestedBindingRedirects.cache
+C:\labs\WcfService\WCFServiceForm\obj\Debug\WCFServiceForm.Form1.resources
+C:\labs\WcfService\WCFServiceForm\obj\Debug\WCFServiceForm.Properties.Resources.resources
+C:\labs\WcfService\WCFServiceForm\obj\Debug\WCFServiceForm.csproj.GenerateResource.cache
+C:\labs\WcfService\WCFServiceForm\obj\Debug\WCFServiceForm.csproj.CoreCompileInputs.cache
+C:\labs\WcfService\WCFServiceForm\obj\Debug\WCFServiceForm.exe
+C:\labs\WcfService\WCFServiceForm\obj\Debug\WCFServiceForm.pdb

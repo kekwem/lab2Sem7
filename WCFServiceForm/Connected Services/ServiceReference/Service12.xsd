@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:57265/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfService" />
+  <xs:element name="dodawanie4Param">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="rz_1" type="xs:double" />
+        <xs:element minOccurs="0" name="ur_1" type="xs:double" />
+        <xs:element minOccurs="0" name="rz_2" type="xs:double" />
+        <xs:element minOccurs="0" name="ur_2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dodawanie4ParamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dodawanie4ParamResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="odejmowanie4Param">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="rz_1" type="xs:double" />
+        <xs:element minOccurs="0" name="ur_1" type="xs:double" />
+        <xs:element minOccurs="0" name="rz_2" type="xs:double" />
+        <xs:element minOccurs="0" name="ur_2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="odejmowanie4ParamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="odejmowanie4ParamResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mnozenie4Param">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="rz_1" type="xs:double" />
+        <xs:element minOccurs="0" name="ur_1" type="xs:double" />
+        <xs:element minOccurs="0" name="rz_2" type="xs:double" />
+        <xs:element minOccurs="0" name="ur_2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mnozenie4ParamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mnozenie4ParamResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dzielenie4Param">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="rz_1" type="xs:double" />
+        <xs:element minOccurs="0" name="ur_1" type="xs:double" />
+        <xs:element minOccurs="0" name="rz_2" type="xs:double" />
+        <xs:element minOccurs="0" name="ur_2" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dzielenie4ParamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dzielenie4ParamResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dodawanie2Param">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="Zes_1" nillable="true" type="q1:ComplexType" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="Zes_2" nillable="true" type="q2:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dodawanie2ParamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dodawanie2ParamResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="odejmowanie2Param">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="Zes_1" nillable="true" type="q3:ComplexType" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="Zes_2" nillable="true" type="q4:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="odejmowanie2ParamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="odejmowanie2ParamResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mnozenie2Param">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="Zes_1" nillable="true" type="q5:ComplexType" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="Zes_2" nillable="true" type="q6:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mnozenie2ParamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mnozenie2ParamResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dzielenie2Param">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="Zes_1" nillable="true" type="q7:ComplexType" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/WcfService" minOccurs="0" name="Zes_2" nillable="true" type="q8:ComplexType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dzielenie2ParamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dzielenie2ParamResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
